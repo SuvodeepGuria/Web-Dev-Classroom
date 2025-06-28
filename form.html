@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="">
+        <table align="center" width="">
+            <tr>
+                <td><p>First Name <font color="red">*</font>: </td>
+                <td><input type="text" name="fname" id="fname" maxlength="30" required></p></td>
+            </tr>
+            <tr>
+                <td><p>Middle Name: </td>
+                <td><input type="text" name="mname" id="mname" maxlength="6"></p></td>
+            </tr>
+            <tr>
+                <td><p>Last Name  <font color="red">*</font>: </td>
+                <td><input type="text" name="lname" id="lname" maxlength="30"></p></td>
+            </tr>
+
+            <tr>
+                <td><p>Email Id <font color="red">*</font>: </td>
+                <td><input type="email" name="email" id="email" maxlength="50"></p></td>
+            </tr>
+            <tr>
+                <td><p>Password <font color="red">*</font>: </td>
+                <td><input type="password" name="password" id="password"></p></td>
+            </tr>
+
+            <tr>
+                <td><p>Date of Birth: </td>
+                <td><input type="date" name="dob" id="dob"></p></td>
+            </tr>
+            <tr>
+                <td><p>Mobile No. <font color="red">*</font>: </td>
+                <td><input type="number" name="mob" id="mob"></p></td>
+            </tr>
+
+            <tr>
+                <td><p>Select Your Gender: </td>
+                    <td><select name="gender" id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="others">Others</option>
+                    </select></td>
+                </p>
+            </tr>
+
+            <tr>
+                <td><p>Select Your Department: </td>
+                    <td><select name="department" id="department">
+                        <option value="btech">B.Tech</option>
+                        <option value="mtech" selected>M.Tech</option>
+                        <option value="mca">MCA</option>
+                        <option value="bca" disabled>BCA</option>
+                    </select></td>
+                </p>
+            </tr>
+
+            <tr>
+                <td><p>Select Language: </td>
+                    <td><input type="checkbox" name="language" value="English">English
+                    <input type="checkbox" name="language" value="Hindi">Hindi
+                    <input type="checkbox" name="language" value="Bengali">Bengali</td>
+                </p>
+            </tr>
+
+            <tr>
+                <td><p>Food: </td>
+                    <td><input type="radio" name="food">Veg
+                    <input type="radio" name="food">Non-Veg</td>
+                </p>
+            </tr>
+
+            <tr>
+                <td>Select Fav Color: </td>
+                <td><input type="color" name="color" id="color"></td>
+            </tr>
+
+            <tr>
+                <td><p>Hidden Field:</td> 
+                <td><input type="hidden" name="hidden" value="1234"></tr></td>
+            </tr>
+
+            <tr>
+                <td><p>Your Comment: </td>
+                <td><textarea rows="4" cols="60"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><p>Uoload Image: </td>
+                <td><input type="file" name="myfile" id="myfile" accept=".pdf"></td>
+            </tr>
+
+            <tr>
+                <td><p>Date Time: </td>
+                <td><input type="week" name="week" id="week"></td>
+                
+            </tr>
+
+            <tr>
+                <td><p>Select Month: </td>
+                <td><input type="month" name="month" id="month"></td>
+            </tr>
+
+            <tr>
+                <td><p>Start Time: </td>
+                <td><input type="datetime-local" name="starttime" id="starttime"></td>
+            </tr>
+            <tr>
+                <td><p>End Time: </td>
+                <td><input type="datetime-local" name="endtime" id="endtime"></td>
+            </tr>
+
+            <tr>
+                <td><p>Add Social Link: </td>
+                <td><input type="url" name="url" id="url"></td>
+            </tr>
+
+            <tr>
+                <td>Hostel: </td>
+                <td><select>
+                    <optgroup label="Boys Hostel:">
+                        <option value="f1">First Floor</option>
+                        <option value="f2">Second Floor</option>
+                    </optgroup>
+                    <optgroup label="Girls Hostel:">
+                        <option value="f1">First Floor</option>
+                        <option value="f2">Second Floor</option>
+                    </optgroup>
+                </select>
+                </td>
+            </tr>
+
+            <tr colspan="2">
+                <td><input type="reset" name="reset" id="reset"></td>
+            </tr>
+
+            <tr colspan="2">
+                <td><p><input type="submit" value="Submit"></p></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
